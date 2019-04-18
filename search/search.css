@@ -1,0 +1,161 @@
+body{
+    background-image: url(background.png);
+    background-size: 100%;
+    background-position: center;
+}
+
+#Menu_Frame{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(240, 255, 255, 0.5);  
+}
+
+.SubMenu_Frame{
+    float: left;
+    width:11%;
+    height:5%;
+}
+
+.Icon{
+    float: left;
+    background-color: rgba(20, 97, 240, 0.5);
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+.Image{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.Description{
+    font-size: 16px;
+    font-weight:bold; 
+    font-family: 'Cambria';
+    color:rgb(255, 255, 255);
+    margin-top: 35px;
+    margin-left:70px;
+}
+
+#Top_Frame{
+    float: right;
+    width:20%;
+    height:5%;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+#Admin{
+    margin-right: 0px;
+    height: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}
+
+#User{
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    float: right;
+    border-radius: 15px;
+    background-color:rgba(20, 97, 240, 0.5);
+    color:rgb(255, 255, 255);
+}
+
+#Logout{
+    vertical-align: middle;
+    text-align: center;
+    height: 30px;
+    width:80px;
+    float: right;
+    border-radius: 15px;
+    background-color:rgba(20, 97, 240, 0.5);
+    color:rgb(255, 255, 255);
+}
+
+#Search {  
+    width: 400px;  
+    height: 330px;  
+    padding: 13px;  
+    font-weight:bold; 
+    position: absolute;  
+    left: 20%;  
+    top: 50%;  
+    margin-left: -200px;  
+    margin-top: -200px;  
+  
+    background-color: rgba(240, 255, 255, 0.5);  
+  
+    border-radius: 10px;  
+    text-align: center;  
+}  
+  
+form p > * {  
+    display: inline-block;  
+    vertical-align: middle;  
+}  
+.label_input {  
+    font-size: 14px;  
+    font-family: 宋体;  
+  
+    width: 65px;  
+    height: 28px;  
+    line-height: 28px;  
+    text-align: center;  
+  
+    color: white;  
+    background-color: rgba(20, 97, 240, 0.5);  
+    border-top-left-radius: 5px;  
+    border-bottom-left-radius: 5px;  
+}  
+  
+.text_field {  
+    width: 278px;  
+    height: 28px;  
+    border-top-right-radius: 5px;  
+    border-bottom-right-radius: 5px;  
+    border: 0;  
+}  
+
+#Results{
+    width: 800px;  
+    height: 800px;  
+    padding: 13px;  
+    font-weight:bold; 
+    position: absolute;  
+    left: 50%;  
+    top: 50%;  
+    margin-left: -200px;  
+    margin-top: -200px;  
+  
+    background-color: rgba(240, 255, 255, 0.5);  
+  
+    border-radius: 10px;  
+    text-align: center; 
+}
+
+#search_button {  
+    font-size: 14px;  
+    font-family: 宋体;  
+  
+    width: 120px;  
+    height: 28px;  
+    line-height: 28px;  
+    text-align: center;  
+  
+    color: white;  
+    background-color: rgba(20, 97, 240, 0.5); 
+    border-radius: 6px;  
+    border: 0;  
+  
+    float: left;  
+}  
+#search_control {  
+    padding: 0 140px;  
+}  

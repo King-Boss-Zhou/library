@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>登录页面</title>
+        <link rel = "stylesheet" type="text/css" href="login/login.css"/>
+    </head>
+
+    <body>
+        <div id = "login_frame">
+            <p id = "login_logo"><img src = "login/login.png"></p>
+            <form method="post" action="login.php">
+                <p>
+                    <label class="label_input">用户名</label><input type="text" id="username" name="username" class="text_field"/>
+                </p>
+                <p>
+                    <label class="label_input">密码</label><input type="password" id="password" name="password" class="text_field"/>
+                </p>
+                <div id="login_control">
+                    <input type="submit" id="btn_login" name="btn_login" value="登录"/>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

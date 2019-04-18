@@ -1,0 +1,75 @@
+body{
+    background-color:rgb(255,244,195);
+}
+#Top_Frame{
+    background-image: url("top.jpg");
+    background-size: 100%;
+    background-position: center;
+
+    width: 100%;
+    height: 75%;
+}
+
+#Admin{
+    margin-right: 0px;
+    height: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    float: right;
+}
+
+#User{
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    float: right;
+    border-radius: 15px;
+    background-color:rgba(240, 64, 20, 0.5);
+}
+
+#Logout{
+    vertical-align: middle;
+    text-align: center;
+    height: 30px;
+    width:80px;
+    float: right;
+    border-radius: 15px;
+    background-color:rgba(240, 64, 20, 0.5);
+}
+
+#Menu_Frame{
+    width: 100%;
+    height: 25%;
+}
+
+.SubMenu_Frame{
+    float: left;
+    width:16%;
+    height:25%;
+}
+
+.Icon{
+    background-color: rgba(240, 64, 20, 0.5);
+    height: 130px;
+    width: 130px;
+    border-radius: 65px;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+
+.Image{
+    height: 120px;
+    width: 120px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.Description{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:rgb(0.0,0.0,0.0);
+    margin-top: 0px;
+    margin-left:65px;
+}
